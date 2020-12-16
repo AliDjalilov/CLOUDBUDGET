@@ -9,6 +9,7 @@
     href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+  <link rel="stylesheet" href="./icomoon/style.css">
   <link rel="stylesheet" href="/css/style.css" />
 </head>
 <body>
@@ -54,8 +55,8 @@
         <div class="row">
           <div class="col col-6 offset-3">
             <p class="description">
-              Cloud budget management for everyone. Only €69.95 a Month After
-              a 7 Day Trial of Up to €4.99
+              Cloud budget management for everyone. Only<br> €69.95 a Month After a 7 Day Trial of<br>
+              Up to €4.99
             </p>
           </div>
         </div>
@@ -80,10 +81,10 @@
           <div class="video-wrap">
             <video  src="https://febasic.github.io/media/video.mp4" poster="images/Video_bg.svg" muted loop
               class="video">
-            </video>
-            <button class="play-button">
-              <img class="text-centr" src="images/PlaySolidF5B0.svg" alt="button to pause or play"      
-              aria-label="Click pause for a video" />
+            </video>  
+            <button class="play-button"
+              aria-label="Click pause for a video" >
+                <span class="icon-pause" aria-hidden="true"></span>
             </button>
           </div>
         </div>
@@ -145,7 +146,9 @@
         <li class="col col-3">
           <div class="box2">
             <span class="number">01</span>
-            <img src="images/Frame3.svg" alt="Cloud" class="searc_and_download" />
+            <div class="ico-wrap">
+              <span class="icon-cloud"></span>
+            </div>
             <h3 class="headlines1">Cloud Storage</h3>
             <p class="availability">
               Access your account from anywhere in the world on any device
@@ -155,7 +158,10 @@
         <li class="col col-3">
           <div class="box2">
             <span class="number">02</span>
-            <img src="images/Frame4.svg" alt="Safety" class="searc_and_download" />
+            <div class="ico-wrap">
+              <span class="icon-search">
+              </span>
+            </div>
             <h3 class="headlines1">Secure</h3>
             <p class="availability">
               All your information is stored on secure cloud servers
@@ -165,7 +171,9 @@
         <li class="col col-3">
           <div class="box2">
             <span class="number">03</span>
-            <img src="images/Vector1.svg" alt="Download as PDF" class="searc_and_download" />
+        <div class="ico-wrap"><span class="icon-download-pdf">
+        </span>
+      </div>
             <h3 class="headlines1">PDF Download</h3>
             <p class="availability">
               Download any of your reports in PDF format
@@ -175,7 +183,9 @@
         <li class="col col-3">
           <div class="box2">
             <span class="number">04</span>
-            <img src="images/Vector3.svg" alt="Download in CSV format" class="searc_and_download" />
+        <div class="ico-wrap"><span class="icon-download_csv">
+        </span>
+      </div>
             <h3 class="headlines1">CSV Download</h3>
             <p class="availability">
               All your information is stored on secure cloud servers
@@ -198,13 +208,22 @@
           </p>
           <ul class="market">
             <li class="store">
-              <a href="#" class="image"><img  class="entertainment" src="images/ion-logo-google-playstore.svg" alt="PLAY STORE" aria-label=" Click the icon PLAY STORE" ></a>
+              <a href="#" class="image" aria-label=" Click the icon PLAY STORE" >
+                <span class="icon-playstore" aria-hidden="true">
+                </span>
+              </a>
             </li>
             <li class="store">
-              <a href="#" class="image"><img  class="entertainment" src="images/ion-logo-apple-appstore.svg" alt="APPSTORE" aria-label=" Click the icon APPSTORE" ></a>
+              <a href="#" class="image" aria-label=" Click the icon APPSTORE">
+                <span class="icon-appstore"  aria-hidden="true">
+                </span>
+              </a>
             </li>
             <li class="store">
-              <a href="#" class="image"><img class="entertainment"  src="images/simple-icons_windows.svg" alt="WINDOWS" aria-label=" Click the icon WINDOWS"></a>
+              <a href="#" class="image" aria-label=" Click the icon WINDOWS">
+                <span class="icon-windowsstore">
+                </span>
+              </a>
             </li>
           </ul>
         </div>
@@ -253,7 +272,10 @@
                 <option value="4">Terms & Conditions</option>
                 <option value="5">Privecy</option>
               </select>
-              <img src="/images/arrow.svg" alt="arrow" class="arrow_select">
+                    <div class="cursor">
+                  <span class="icon-arrow" aria-hidden="true">
+                  </span>
+                </div>
               <button class="submit " aria-label="Click the icon SUBMIT NOW">SUBMIT NOW</button>
             </form>
           </div>
@@ -290,9 +312,19 @@
               <a href="'tel:+18447217120'" class="footer-menu" aria-label="Сlick to find our phone number">+1 844-721-7120</a>
             </li>
           </ul>
-          <a href="#" class="image"><img src="images/Vector4.svg" alt="Faccebook"   aria-label="Click to find us on facebook"/></a>
-          <a href="#" class="image"><img src="images/feather-linkedin.svg" alt="Linkedin" aria-label="Click to find us on linkedin"/></a>
-          <a href="#" class="image"><img src="images/Vector2.svg" alt="Twitter" aria-label="Click to find us on twitter"/></a>
+          <a href="#" class="image" aria-label="Click to find us on facebook">  
+            <span class="icon-facebook" aria-hidden="true">
+
+            </span>
+          </a>
+          <a href="#" class="image" aria-label="Click to find us on linkedin">
+            <span class="icon-linkedin"  aria-hidden="true">
+            </span>
+          </a>
+          <a href="#" class="image" aria-label="Click to find us on twitter"> 
+            <span class="icon-twitter"  aria-hidden="true">
+            </span>
+          </a>
         </div>
         <div class="col col-3">
           <h3 class="main-footer">We support</h3>
